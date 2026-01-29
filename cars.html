@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>السيارات</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>🚘 السيارات المتوفرة</h2>
+
+<div class="cars">
+
+  <div class="car" data-car="Dacia Logan" data-price="250">
+    <img src="Dacia Logan.jpg">
+    <h3>Dacia Logan</h3>
+    <p>الثمن: 250 درهم / اليوم</p>
+
+    من: <input type="date" id="start1">
+    إلى: <input type="date" id="end1">
+
+    <button onclick="reserve('Dacia Logan',250,'start1','end1')">
+      حجز دابا
+    </button>
+  </div>
+  <div class="car" data-car="Hyundai i10" data-price="250">
+    <img src="hyundai-i10-2023.webp">
+    <h3>Hyundai i10</h3>
+    <p>الثمن: 250 درهم / اليوم</p>
+
+    من: <input type="date" id="start1">
+    إلى: <input type="date" id="end1">
+
+    <button onclick="reserve('Hyundai i10',250,'start1','end1')">
+      حجز دابا
+    </button>
+  </div>
+    <div class="car" data-car="Peugeot 208" data-price="300">
+        <img src="بيجو 208.jpeg">
+        <h3>Peugeot 208</h3>
+        <p>الثمن: 300 درهم / اليوم</p>
+    
+        من: <input type="date" id="start1">
+        إلى: <input type="date" id="end1">
+    
+        <button onclick="reserve('Peugeot 208',300,'start1','end1')">
+        حجز دابا
+        </button>
+    </div>
+    <div class="car" data-car="Renault Clio" data-price="250">
+    <img src="رينو كليو.webp">
+    <h3>Renault Clio</h3>
+    <p>الثمن: 250 درهم / اليوم</p>
+
+    من: <input type="date" id="start1">
+    إلى: <input type="date" id="end1">
+
+    <button onclick="reserve('Renault Clio',250,'start1','end1')">
+      حجز دابا
+    </button>
+  </div>
+  <div class="car" data-car="Toyota Corolla" data-price="250">
+    <img src="تويوتا كورولا.jpg">
+    <h3>Toyota Corolla</h3>
+    <p>الثمن: 250 درهم / اليوم</p>
+
+    من: <input type="date" id="start1">
+    إلى: <input type="date" id="end1">
+
+    <button onclick="reserve('Toyota Corolla',250,'start1','end1')">
+      حجز دابا
+    </button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
